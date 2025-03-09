@@ -1,0 +1,11 @@
+[project]
+authors = ["bassey_A <basee35@live.com>"]
+channels = ["conda-forge"]
+name = "random_tools"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pip = ">=25.0.1,<26"
