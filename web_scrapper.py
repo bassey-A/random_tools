@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://goal.com"
+url = "https://www.hkr.se"
 response = requests.get(url)
 soup = BeautifulSoup(response.text, "html.parser")
 
