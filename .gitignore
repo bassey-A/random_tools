@@ -2,3 +2,11 @@
 # pixi environments
 .pixi
 *.egg-info
+
+# folders
+__pycache__/
+.pixi/
+
+# files
+*.lock
+*.toml
